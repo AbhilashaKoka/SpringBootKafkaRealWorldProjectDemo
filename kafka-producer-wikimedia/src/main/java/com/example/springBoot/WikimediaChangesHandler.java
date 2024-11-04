@@ -1,10 +1,11 @@
 package com.example.springBoot;
-import com.launchdarkly.eventsource.EventHandler;
-import com.launchdarkly.eventsource.MessageEvent;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 
+import com.launchdarkly.eventsource.EventHandler;
+import com.launchdarkly.eventsource.MessageEvent;
 
 
 public class WikimediaChangesHandler implements EventHandler {
